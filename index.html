@@ -33,7 +33,7 @@
 
         <!-- Chatbot Body -->
         <div class="chat-body">
-            <div class="message bot-message">
+            <div class="message bot-message thinking">
                 <svg class="bot-avatar" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
                     viewBox="0 0 1024 1024">
                     <path
@@ -71,11 +71,11 @@
         <!-- Footer -->
         <div class="chat-footer">
             <form action="#" class="chat-form">
-                <textarea placeholder="Message...." class="message-input"></textarea>
+                <textarea placeholder="Message...." class="message-input" required ></textarea>
                 <div class="chat-controls">
                     <button type="button" class="material-symbols-rounded">sentiment_satisfied</button>
-                    <button type="button" class="material-symbols-rounded">attach_file</button>
-                    <button type="submit" class="material-symbols-rounded">arrow_upward</button>
+                    <button type="button" class="material-symbols-rounded" >attach_file</button>
+                    <button type="submit" class="material-symbols-rounded" id="send-message">arrow_upward</button>
                 </div>
             </form>
         </div>
