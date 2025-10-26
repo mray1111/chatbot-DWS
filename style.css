@@ -87,6 +87,8 @@ body{
     flex-direction: column;
     scroll-behavior: smooth; /* enables smooth scrolling to latest message */
     padding-bottom: 90px; 
+    scrollbar-width: thin;
+    scrollbar-color: #ccccf5 transparent;
 }
 
 
